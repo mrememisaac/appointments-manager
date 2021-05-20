@@ -1,16 +1,12 @@
-import logo from './logo.svg';
+import { BiCalendarEvent} from 'react-icons/bi';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Appointments Manager
-        </p>
-       
-      </header>
+    <div className="App container mx-auto mt-3 font-thin">
+      <h1 className="text-5xl text-gray-700">
+        <BiCalendarEvent className="inline-block mb-4"/>Appointments Manager
+        </h1>
     </div>
   );
 }
